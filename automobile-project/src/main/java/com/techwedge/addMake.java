@@ -1,4 +1,4 @@
-package com.techwedge;
+package com.techwedge; //Just trying comments
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -36,13 +36,6 @@ public class addMake
 		ms.makeser(makename);
 		ModelAndView mv=new ModelAndView();
 		mv.setViewName("addm.jsp");
-		return mv;	
-	}
-	@RequestMapping("/addmodel")
-	public ModelAndView addmodel()
-	{
-		ModelAndView mv=new ModelAndView();
-		mv.setViewName("addmodel.jsp");
 		return mv;	
 	}
 }
