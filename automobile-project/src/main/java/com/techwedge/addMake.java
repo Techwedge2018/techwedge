@@ -38,11 +38,4 @@ public class addMake
 		mv.setViewName("addm.jsp");
 		return mv;	
 	}
-	@RequestMapping("/addmodel")
-	public ModelAndView addmodel()
-	{
-		ModelAndView mv=new ModelAndView();
-		mv.setViewName("addmodel.jsp");
-		return mv;	
-	}
 }
